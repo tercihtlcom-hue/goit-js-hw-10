@@ -1,0 +1,131 @@
+.form {
+  display: block;
+  justify-items: center;
+  margin-top: 24px;
+}
+.inputLbl {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+
+  min-width: 360px;
+  height: 72px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.inputLbl input {
+  border: 1px solid #808080;
+  outline: none;
+  border-radius: 4px;
+  min-width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.inputLbl input:hover {
+  border-color: #000;
+}
+
+.inputLbl input:focus {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  min-width: 360px;
+  height: 72px;
+  padding: 24px 16px 8px 16px;
+  margin-bottom: 24px;
+  gap: 48px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  border-radius: 4px;
+  border: 1px solid #808080;
+
+  width: 360px;
+  height: 78px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+fieldset:hover,
+fieldset:focus {
+  border-color: #000;
+}
+
+legend {
+  text-align: left;
+  margin-left: 14px;
+}
+
+.radioLbl {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.radioLbl input {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  flex-direction: row;
+  gap: 10px;
+
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submitBtn:hover {
+  background-color: #6c8cff;
+}
